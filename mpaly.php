@@ -44,7 +44,7 @@ $rr=object_array($cv);
 $aaaks=array_reverse(($rr[Download]));
 
 $furl=$aaaks[3][url];//flv视频地址
-$murl=$aaaks[3][url];//mp4视频地址
+$murl=$aaaks[1][url];//mp4视频地址
 function read_body(&$ch,&$string){
 	global $loadedsize;
 	$rtn=strlen($string);
