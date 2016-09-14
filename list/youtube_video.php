@@ -117,7 +117,7 @@ header('Access-Control-Allow-Origin: *');
 	}
 }
 </style>
-<h3 style="text-align:center;"><img src="http://ww4.sinaimg.cn/large/8905ee52gw1f02g0c2bo3j200q00q0jb.jpg"/> 推荐视频</h3>
+<h3 style="text-align:center;"><img src="https://ww4.sinaimg.cn/large/8905ee52gw1f02g0c2bo3j200q00q0jb.jpg"/> 推荐视频</h3>
 <ul class="list-unstyled video-list-thumbs row">
 <?php
 
