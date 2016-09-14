@@ -141,7 +141,7 @@ $video_list = json_decode(file_get_contents($jsonurl));
 $video_list1=object_array($video_list);
 ?>
 <script src="js/jquery.js"></script>
-<script src="http://apps.bdimg.com/libs/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="https://apps.bdimg.com/libs/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <div class="wrapper container">
  <div  class="pull-left" id="a1" style="width:850px">
      <!--ckplayer配置开始-->
