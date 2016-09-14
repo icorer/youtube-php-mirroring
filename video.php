@@ -148,7 +148,7 @@ $video_list1=object_array($video_list);
    <script type="text/javascript" src="/ckplayer/ckplayer.js" charset="utf-8"></script>
 <script type="text/javascript">
     var flashvars={
-        f:'<?php echo $mp4url;?>',
+        f:'<?php echo $flvurl;?>',
         c:0,
         p:1
     };
