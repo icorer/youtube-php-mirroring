@@ -126,11 +126,11 @@ $googer = new GoogleURLAPI($key);
 $flvurl1 = $googer->shorten("$furl");//flv
 $mp4url1 = $googer->shorten("$murl");//mp4
 //获取视频列表
-//$flvurl= $ym.$ytproxy.'/browse.php?u='.$flvurl1;
-//$mp4url= $ym.$ytproxy.'/browse.php?u='.$mp4url1;
+$flvurl= $ym.$ytproxy.'/browse.php?u='.$flvurl1;
+$mp4url= $ym.$ytproxy.'/browse.php?u='.$mp4url1;
 
-$flvurl="https://y2b.icorer.com/".$ytproxy.'/browse.php?u='.$flvurl1;
-$mp4url= "https://y2b.icorer.com/".$ytproxy.'/browse.php?u='.$mp4url1;
+//$flvurl="https://y2b.icorer.com/".$ytproxy.'/browse.php?u='.$flvurl1;
+//$mp4url= "https://y2b.icorer.com/".$ytproxy.'/browse.php?u='.$mp4url1;
 
 $vname1=$vname;
 $vname1=substr($vname1, 0, 4);
